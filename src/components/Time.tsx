@@ -1,6 +1,5 @@
 "use client"
 
-import { clear, time } from 'console';
 import { useState, useEffect } from 'react';
 
 
@@ -9,7 +8,7 @@ const Time = () => {
     const [utcTime, setUtcTime] = useState<string>('');
 
     const timeZone = new Date();
-    const timeZoneOffset = timeZone.getTimezoneOffset();
+    // const timeZoneOffset = timeZone.getTimezoneOffset();
     const timeZoneName = Intl.DateTimeFormat().resolvedOptions().timeZone;
     let zoneName = "";  // Use 'let' instead of 'const' to allow reassignment
 

@@ -1,4 +1,3 @@
-import Footer from "./Footer"
 import Time from "./Time"
 
 const Utc = () => {
